@@ -32,14 +32,18 @@ The objective of this task was to build a conversational AI chatbot using the Gr
 * Errors occurred while implementing the continuous chat loop due to incorrect indentation and loop structure, so the code was reorganized to ensure proper execution flow.
 
 ## How to Run the Application
+
 ### 1.Clone the GitHub repository to your local machine and navigate to the project directory.
 git clone https://github.com/anjalidineshh.git
+
 cd llm-project_anjali
+
 ### 2.Create a virtual environment.
 python -m venv venv
 ### 3.Activate the virtual environment.
  For Windows:
 venv\Scripts\activate
+
  For Linux/macOS:
 source venv/bin/activate
 ### 4.Install all required dependencies from the requirements file.
@@ -48,8 +52,10 @@ pip install -r requirements.txt
 Set your Groq API key in the terminal before running the application.
 Windows:
 set GROQ_API_KEY=your_api_key_here
+
 Linux/macOS:
 export GROQ_API_KEY=your_api_key_here
+
 Replace `your_api_key_here` with your actual Groq API key.
 ### 6.Run the chatbot application.
 python chat.py
