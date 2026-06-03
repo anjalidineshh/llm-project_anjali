@@ -1,5 +1,6 @@
 from groq import Groq
-client = Groq(api_key="YOUR_GROQ_API_KEY")
+import os
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 messages = [
     {
         "role":"system",
@@ -7,7 +8,7 @@ messages = [
     }
 ]
 while True:
-    user_message = input("You:")
+    user_message = input("User:")
     if user_message == "exit":
         break
     messages.append(
