@@ -42,14 +42,17 @@ cd llm-project_anjali
 python -m venv venv
 ### 3.Activate the virtual environment.
  For Windows:
+ 
 venv\Scripts\activate
 
  For Linux/macOS:
+ 
 source venv/bin/activate
 ### 4.Install all required dependencies from the requirements file.
 pip install -r requirements.txt
 ### 5. Configure the Groq API Key
 Set your Groq API key in the terminal before running the application.
+
 Windows:
 set GROQ_API_KEY=your_api_key_here
 
